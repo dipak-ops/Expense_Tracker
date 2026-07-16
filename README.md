@@ -1,17 +1,154 @@
-# rev_expense_app
+# 💰 Expense Tracker App
 
-A new Flutter project.
+A modern and user-friendly **Expense Tracker** built with **Flutter** that helps users manage daily expenses efficiently. The app allows users to add, categorize, visualize, and delete expenses with an intuitive Material 3 interface.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+- ➕ Add new expenses
+- 📅 Select expense date using Date Picker
+- 📂 Categorize expenses into:
+  - 🍔 Food
+  - ✈️ Travel
+  - 🛍️ Shopping
+  - 🎬 Entertainment
+  - ❤️ Health
+  - 🎓 Education
+  - 💼 Work
+  - 🧾 Bills
+  - 🛒 Groceries
+  - 📦 Other
+- 📊 Interactive expense chart
+- 🗑️ Swipe to delete expenses
+- ↩️ Undo deleted expenses with SnackBar
+- 🌙 Material 3 UI
+- 📱 Responsive design
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📸 Screenshots
+
+> Add screenshots of your application here.
+
+| Home Screen | Add Expense | Expense Chart |
+|-------------|-------------|---------------|
+| Screenshot | Screenshot | Screenshot |
+
+---
+
+## 🛠️ Built With
+
+- Flutter
+- Dart
+- Material 3
+- Stateful Widgets
+- Custom Widgets
+- Date Picker
+- SnackBar
+- Dismissible
+- Charts
+- ThemeData
+
+---
+
+## 📂 Project Structure
+
+```
+lib
+│
+├── models
+│   └── expense.dart
+│
+├── widget
+│   ├── chart
+│   │   └── chart.dart
+│   ├── expenses_list
+│   │   ├── expenses_item.dart
+│   │   └── expenses_list.dart
+│   └── new_expense.dart
+│
+├── expenses.dart
+└── main.dart
+```
+
+---
+
+## 🚀 Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/dipak-ops/Expense_Tracker.git
+```
+
+### Navigate to the project
+
+```bash
+cd Expense_Tracker
+```
+
+### Install dependencies
+
+```bash
+flutter pub get
+```
+
+### Run the application
+
+```bash
+flutter run
+```
+
+---
+
+## 📊 App Features
+
+- Manage daily expenses easily
+- Visual representation of spending with charts
+- Swipe-to-delete functionality
+- Undo delete using SnackBar
+- Category-wise expense tracking
+- Clean and modern Material 3 design
+
+---
+
+## 🎯 Future Improvements
+
+- SQLite / Hive Database
+- Firebase Authentication
+- Cloud Sync
+- Monthly Expense Reports
+- Budget Management
+- Search & Filter Expenses
+- Export Expenses to PDF/Excel
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+Feel free to fork this repository and submit a pull request.
+
+---
+
+## 👨‍💻 Author
+
+**Dipak Bhondekar**
+
+- GitHub: https://github.com/dipak-ops
+
+---
+
+## ⭐ Support
+
+If you found this project helpful, please consider giving it a ⭐ on GitHub.
+
+It motivates me to build more Flutter projects!
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
