@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:uuid/uuid.dart';
 
-const uuid = Uuid();
-final formatter = DateFormat.yMd();
+const uuid = Uuid();//unique date in string
+final formatter = DateFormat.yMd();//intl for date formating
 
 enum Category {
   food,
